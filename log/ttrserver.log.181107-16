@@ -1,0 +1,168 @@
+[181107-16:06:03] ttrlobby DEBUG Lua 5.1
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\CollectionTable.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\DailyLoginTable.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\DailyWelfareTable.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\Invitation.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\ItemData.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\StoreData.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\TableBuilding.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\TableLevelup.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\TableLobbyIdConfig.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\TableMail.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\TableRebuild.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\dailyshare.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\taskActivity.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\taskTable.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\traveLevel.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\travelHead.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:table\travelUnlock.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\DailyLogin\DailyLogin.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\DailyLogin\MsgDailyLogin.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\DailySharing\DailySharing.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\DailySharing\MsgDailySharing.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\DailyWelfare\DailyWelfare.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\DailyWelfare\MsgDailyWelfare.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\ErrorCode.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\InviteFriends\InviteFriendsMgr.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\InviteFriends\MsgInviteFriends.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\MsgLobby.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\UserInfo.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\cllocet\MsgClloect.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\cllocet\collect.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\common\Common.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\common\List.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\common\Map.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\common\Queue.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\common\enum.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\common\functions.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\common\staticconst.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\dbready.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\friend\frienddata.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\friend\friendmgr.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\friend\msgfriend.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\friend\msgtravel.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\friend\travelmgr.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\friend\userfriend.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\globalConst.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\mail\MailMgr.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\mail\MsgMail.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\mail\mail.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\message\MsgMgr.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\message\MsgMsg.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\message\message.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\ranklist\msgrank.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\ranklist\ranklist.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\ranklist\ranklistMgr.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\ranklist\ranknode.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\recharge\msgplatsdk.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\recharge\rechargemgr.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\settings\MsgSettings.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\store\msgstore.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\store\storemgr.lua
+[181107-16:06:03] ttrlobby DEBUG 00000000000000
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3106)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3114)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=4004)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3004)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3012)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3107)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3304)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=4005)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3005)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3013)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=2003)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3108)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3305)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=4006)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3006)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3014)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3301)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3101)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3109)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=4007)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=1002)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=1004)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=1006)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=4003)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=2004)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3102)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3110)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3203)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=4008)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3008)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3205)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3303)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3302)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3103)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3111)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=4001)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3001)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3009)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3204)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=2001)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=2005)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3104)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3112)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=4002)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3002)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3010)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3202)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3201)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3011)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3105)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3113)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=1001)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=1003)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=1005)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3007)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=2002)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=2006)
+[181107-16:06:03] ttrlobby DEBUG 111%!(EXTRA float64=3003)
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\task\AchieveTaskMgr.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\task\DailyTaskMgr.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\task\TaskData.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\task\msgTask.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\world\Building.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\world\MsgWorld.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\world\State.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\do\world\World.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\event\server.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\event\timer.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\ProFi.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\RecordInfo.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\bit.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\class.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\extend.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\messagefacotry.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\proto.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\protobuf.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\random.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\repair.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\server.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\unihttpclient.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\unilight.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\unilobby.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\unimongodb.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\unimongodb_test.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\unimysql.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\uniplatform.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\uniredis.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\uniregexp.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\unirethinkdb.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\unitcp.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\unitimer.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\unizone.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua\utf8.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua_ttr\db\chessdbinit.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua_ttr\db\userinfodb.lua
+[181107-16:06:03] ttrlobby DEBUG 正在加载脚本:script\gxlua_ttr\ttrutil.lua
+[181107-16:06:03] ttrlobby DEBUG LuaAddTimer:25sec,unitimer.loop
+[181107-16:06:03] ttrlobby DEBUG LuaAddTimer:1000sec,UserInfo.Update
+[181107-16:06:03] ttrlobby INFO  lua engine initialize ok
+[181107-16:06:03] ttrlobby INFO  lua version check ok
+[181107-16:06:03] ttrlobby INFO  set runtime.GOMAXPROCS = 8
+[181107-16:06:03] ttrlobby INFO  game props 0,1000
+[181107-16:06:03] ttrlobby DEBUG LoginClientTask[0,100001,]url:ws://14.17.104.56:7000/shen/zone,origin:http://14.17.104.56/
+[181107-16:06:03] ttrlobby DEBUG LoginClientTask[0,100001,]Dail:ws://14.17.104.56:7000/shen/zone,*
+[181107-16:06:03] ttrlobby INFO  LobbyServerList url is null :0
+[181107-16:06:03] ttrlobby INFO  selectmaxgateway 

@@ -1,0 +1,44 @@
+<UniServer>
+	<global>
+		<debug>false</debug>
+		<serverList>serverList.xml</serverList>
+		<log>debug</log>
+		<suffix>060102-15</suffix>
+		<cpu_num>0</cpu_num>
+		<debug_level>1</debug_level>
+	</global>
+	<UniLight>
+		<last_dofile>script/do/RoomInfo.lua;script/do/SeatInfo.lua;script/do/RoundInfo.lua;script/do/UserInfo.lua;script/do/RobotInfo.lua;</last_dofile>
+		<!--zone_key>150:301:123456789</zone_key-->
+		<zone_key>191:303:76459cf26ba83fb636f262fe0a7db988cf9033817952d60908c3604ecf5f62698b536bef334d2474b338e7cb42b2331aee1ee3b6a7088de56c20c17e41c1a6473f1f1ddedf536ec3ca53e9f3dc3a26d5c56134d502d61cfb39c42cb91d2a81fb47f1e9b20cbb69171fab4458446b9e2af6a6cad0807a72ef370945162395943f</zone_key>
+		<!--zone_key>195:302</zone_key-->
+		<max_online_num>1000</max_online_num>
+		<priority>10</priority>
+		<logfilename>log/fishserver.log</logfilename>
+		<logname>MJ</logname>
+		<script>script</script>
+		<table>table</table>
+		<message_do>do</message_do>
+		<message_uid>uid</message_uid>
+		<lua_do>Do</lua_do>
+		<lua_initfile>init.lua</lua_initfile>
+		<lua_min_versoin>60</lua_min_versoin>
+		<gm_do>Gm</gm_do>
+		<gm_key>abcdefghijklmnopqrstuvwxyz123456</gm_key>
+		<gm_iv>abcdefghijklmnop</gm_iv>
+		<db_redis></db_redis>
+		<db_mysql></db_mysql>
+		<db_rethink></db_rethink>
+		<db_mongo></db_mongo>
+		<db_mongo_cache>false</db_mongo_cache>
+		<default_dashboard_msg_1>约上三五好友，随时随地开房组局，可获得丰厚奖品；详情咨询官方客服微信lyhnmj888或QQ群553684818</default_dashboard_msg_1>
+		<default_dashboard_msg_2>四人八局，抓中五马，微信红包奖不停；联系客服（微信：lygdmj01），参与活动领取免费钻石；官方微信公众号：老友广东棋牌中心，微信号：gdmj01。</default_dashboard_msg_2>
+		<default_dashboard_msg_3>湖北卡五星麻将华丽上线,全场送钻,加盟一级代理仅需8万元,月入10万不是梦,详情咨询微信laoyoumj01</default_dashboard_msg_3>
+		<default_dashboard_msg_4>老友贵州麻将正式上线，充值及代理添加微信公众号lygzmj01，或咨询运营经理微信：lygzmj02</default_dashboard_msg_4>
+        /* <email_srcserver>smtp.qq.com</email_srcserver> */
+        /* <email_srcport>465</email_srcport> */
+        /* <email_srcname>8888888888@qq.com</email_srcname> */
+        /* <email_srcpwd>sdfsfsdfsdf</email_srcpwd> */
+        /* <email_srcnickname>Testserver</email_srcnickname> */
+	</UniLight>
+</UniServer>

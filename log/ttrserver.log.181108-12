@@ -1,0 +1,57 @@
+[181108-12:00:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:01:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:02:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:03:39] ttrlobby INFO  luaCollectBefore:5099.68359375  luaCollectEnd: 4316.412109375
+[181108-12:03:39] ttrlobby DEBUG RuntimeStats Lua: 783.0KB, Goroutines: 19, GCPause: 0.00+0.00ms, HeapObjects: 42311, HeapAlloc: 2.3MB, Mallocs: 6222811,Frees:6180500
+[181108-12:03:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:04:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:05:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:06:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:07:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:08:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:09:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:10:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:11:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:12:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:13:39] ttrlobby INFO  luaCollectBefore:6241.51171875  luaCollectEnd: 4481.775390625
+[181108-12:13:39] ttrlobby DEBUG RuntimeStats Lua: 1.7MB, Goroutines: 20, GCPause: 0.00+0.00ms, HeapObjects: 103808, HeapAlloc: 4.3MB, Mallocs: 8159676,Frees:8055868
+[181108-12:13:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:14:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:15:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:16:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:17:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:18:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:19:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:20:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:21:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:22:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:23:39] ttrlobby INFO  luaCollectBefore:6491.234375  luaCollectEnd: 4481.591796875
+[181108-12:23:39] ttrlobby DEBUG RuntimeStats Lua: 2.0MB, Goroutines: 20, GCPause: 0.00+0.00ms, HeapObjects: 77482, HeapAlloc: 3.4MB, Mallocs: 10099726,Frees:10022244
+[181108-12:23:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:24:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:25:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:26:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:27:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:28:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:29:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:30:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:31:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:32:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:33:39] ttrlobby INFO  luaCollectBefore:6452.5234375  luaCollectEnd: 4500.384765625
+[181108-12:33:39] ttrlobby DEBUG RuntimeStats Lua: 1.9MB, Goroutines: 20, GCPause: 0.00+0.00ms, HeapObjects: 70925, HeapAlloc: 3.2MB, Mallocs: 12048048,Frees:11977123
+[181108-12:33:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:34:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:35:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:36:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:37:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:38:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:39:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:40:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:41:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:42:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:43:39] ttrlobby INFO  luaCollectBefore:6894.0625  luaCollectEnd: 4505.037109375
+[181108-12:43:39] ttrlobby DEBUG RuntimeStats Lua: 2.3MB, Goroutines: 20, GCPause: 0.00+0.00ms, HeapObjects: 99127, HeapAlloc: 4.1MB, Mallocs: 14005579,Frees:13906452
+[181108-12:43:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:44:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:45:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。
+[181108-12:46:41] ttrlobby DEBUG 排行榜排序开始了。。。。。。。。。。

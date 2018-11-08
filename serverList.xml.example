@@ -1,0 +1,13 @@
+<UniServer>
+	<NameServerList>
+		<url>ws://58.68.251.23:7000/shen/name</url>
+	</NameServerList>
+	<LoginServerList>
+		<url>ws://58.68.251.23:7000/shen/zone</url>
+	</LoginServerList>
+	<MonitorServerList>
+		<url>ws://58.68.251.23:7002/monitor/zone</url>
+	</MonitorServerList>
+	<GmServerList>
+	</GmServerList>
+</UniServer>

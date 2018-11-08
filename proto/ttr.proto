@@ -1,0 +1,804 @@
+package Cmd;
+
+///////////////////////////////////////邮件部分///////////////////////////////////
+//邮件附件
+message Attachment
+{
+	optional uint32 itemid 	 = 1; // 附件商品id
+    optional uint32 itemnum  = 2; // 对应的商品数量
+}
+
+message MailInfo
+{
+    enum State
+    {
+        UnRead = 1;         // 未读
+        //ReadHasItem = 2;    // 已读,但还有未领取的东西
+        ReadOver = 3;       // 已读,且没有需要领取的东西
+    }
+    optional uint64 id       	   = 1; // 该邮件id 每一个邮件会有一个唯一id
+    //optional string subject  	   = 2; // 标题
+    optional string content  	   = 3; // 内容
+    optional State state     	   = 6; // 状态
+    optional uint32 stamp 	 	   = 7; // 时间戳
+    repeated Attachment attachment = 8; // 附件商品
+    optional int32  chips  	       = 9; // 金币数
+    optional unit32 goto           = 10; //0不可跳转1可跳转
+}
+
+// 获取邮件列表
+message GetListMailCmd_C
+{
+}
+
+// 获取邮件列表
+message GetListMailCmd_S
+{
+	required uint32 	resultCode 				= 1; // 返回码
+	optional string 	desc 					= 2; // 描述	
+	repeated MailInfo 	mailInfo 				= 3; // 具体邮件 
+	repeated MailInfo 	newsInfo 				= 4; // 消息列表
+}
+
+// 存在新邮件广播 
+message NewMailCmd_Brd
+{	
+}
+
+// 查看指定邮件
+message ReadMailCmd_C
+{
+	optional uint32 	id 						= 1; // 查看指定邮件
+}
+
+// 查看指定邮件
+message ReadMailCmd_S
+{
+	required uint32 	resultCode 				= 1; // 返回码
+	optional string 	desc 					= 2; // 描述	
+	optional MailInfo 	mailInfo 				= 3; // 具体邮件 
+}
+
+// 删除指定邮件
+//message DeleteMailCmd_C
+//{
+//	repeated uint32 	ids 					= 1; // 删除指定邮件
+//}
+
+// 主动删除指定邮件
+message DeleteMailCmd_S
+{
+	required uint32 	resultCode 				= 1; // 返回码
+	optional string 	desc 					= 2; // 描述	
+	repeated MailInfo 	mailInfo 				= 3; // 如果删除了后 返回当前最新的邮件列表
+}
+
+// 领取指定邮件内的奖励
+message GetMailRewardCmd_C
+{
+	optional uint32    id  = 1; //邮件id
+}
+
+message GetMailRewardCmd_S
+{
+	optional uint32     resultCode = 1;
+	optional string 	desc 	   = 2; // 描述
+	optional MailInfo 	mailInfo   = 3; //具体邮件,前端刷新
+}
+
+//跳转.跳转后删除
+message GoToMailCmd_C
+{
+	optional uint32    id  = 1; //邮件id
+}
+
+
+///////////////////////////////////分享/////////////////////////////////////////
+message GetShareRewardCmd_C
+{
+
+}
+
+message RewardData
+{
+	optional uint32     rewardType  = 1;   //奖励类型 --1钻石2金币3道具
+	optional uint32     rewardNum   = 2;   //奖励数量  --道具的话存id
+}
+message GetShareRewardCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+	optional uint32     rewardTimes = 3;   //奖励次数
+	repeated RewardData rewardData  = 4;   //奖励
+}
+
+////////////////////////////////任务成就模块/////////////////////////////////////////////
+enum TaskStatus
+{
+	Task_Status_Unstart  = 0; // 任务未开始 
+	Task_Status_Progress = 1; // 任务进行中
+	Task_Status_Complete = 2; // 已完成
+	Task_Status_Received = 3; // 已领取奖励
+}
+enum AchievementStatus
+{
+	Achievement_Status_Progress = 1; // 进行中
+	Achievement_Status_Complete = 2; // 已完成
+}
+
+message RewardItem
+{
+	optional uint32 goodId			= 1; //物品ID
+	optional uint32 goodNbr			= 2; //物品数量
+}
+
+message TaskItem
+{
+	required uint32    	   taskId                 	= 1; // 任务id
+	required TaskStatus    taskStatus             	= 2; // 任务状态
+	required uint32        goal    					= 3; // 任务目标id
+	repeated RewardItem    rewardInfo 				= 4; // 任务奖励
+}
+
+message Achievement
+{
+	required uint32    	          achId             = 1; // 成就id
+	required AchievementStatus    achStatus         = 2; // 成就状态
+	required uint32               goal    			= 3; // 目标id
+	required TaskItem  	          taskInfo          = 4;  //任务id，每次只发最新的一个
+	repeated RewardItem    		  rewardInfo 				= 5; // 任务奖励
+}
+
+
+//请求任务列表
+message GetTaskListTaskCmd_C
+{
+}
+
+message GetTaskListTaskCmd_S
+{
+	optional uint32  			resultCode	= 1; 
+	optional string     		desc 		= 2; 
+	repeated TaskItem  	        taskInfo    = 3;  //任务
+	repeated Achievement  	    achInfo     = 4;  //成就   
+}
+
+// 领取指定任务奖励
+message GetTaskRewardTaskCmd_C
+{
+	required uint32     taskId                 = 1;
+	required uint32     taskType               = 2;//0每日任务1成就任务
+}
+
+message GetTaskRewardTaskCmd_S
+{
+	optional uint32        resultCode              = 1; 
+	optional string        desc                    = 2; 
+	repeated Achievement   achInfo                 = 3;	   // 领取完成后 任务列表可能有更新(针对成就)
+	//optional uint32      remainder               = 4;	   // 领取后当前金币
+	repeated RewardItem    reward                  = 5;	   // 领取的物品
+	optional uint32  	   activeValue             = 6;    //领取后的活跃值
+	optional uint32        activeBox               = 7;    //开启活跃宝箱的id.0为没有要开启的
+}
+
+
+//开启活跃宝箱
+message OpenActiveBoxCmd_C
+{
+	optional uint32        boxId                  = 1;
+}
+
+message OpenActiveBoxCmd_S
+{
+	optional uint32        resultCode              = 1; 
+	optional string        desc                    = 2; 
+	repeated RewardItem    reward                  = 3;	   // 领取的物品
+}
+
+// 主动通知玩家 当前可以领取奖励(暂不需要)
+message CanGetTaskRewardTaskCmd_Brd
+{	
+}
+
+
+/////////////////////////////////////////旅行///////////////////////////////////
+message BuildData
+{
+	optional uint32   buildId         = 1;
+	optional uint32   status        = 2;  //0关闭，1已开启,2可开启
+	optional uint32   level         = 3;  //等级
+	optional uint32   createCD      = 4;  //产出CD
+}
+message MapData
+{
+	optional uint32   mapId         = 1;
+	optional uint32   status        = 2;  //0关闭，1已开启,2可开启
+	repeated BuildData buildList    = 3;  //建筑列表
+}
+//获取地图列表
+message GetMapListCmd_C
+{
+}
+message GetMapListCmd_S
+{
+	optional uint32        resultCode              = 1; 
+	optional string        desc                    = 2; 
+	repeated MapData       mapList                 = 3;
+}
+//请求开启地图
+message OpenTravelMapCmd_C
+{
+	optional uint32      mapId             = 1; 
+}
+message OpenTravelMapCmd_S
+{
+	optional uint32        resultCode              = 1; 
+	optional string        desc                    = 2; 
+	repeated MapData       mapList                 = 3;
+}
+
+//快速跳转
+message FastSkipMapCmd_C
+{
+	optional uint32      mapId             = 1; 
+}
+message FastSkipMapCmd_S
+{
+	optional uint32        resultCode              = 1; 
+	optional string        desc                    = 2; 
+}
+
+//////////////////////////好友//////////////////////////////////////
+//好友数据消息
+message UserFriendData
+{
+	optional string uid = 1; //好友在游戏里的唯一标识
+	optional string head = 2; //好友QQ头像
+	optional string name = 3; //好友QQ名字
+}
+
+message UserQQFriendData
+{
+	optional string head = 1; //QQ头像
+	optional string name = 2; //QQ名字
+	optional string app_id = 3; //QQ唯一标识
+}
+
+//获取玩家好友消息
+message GetUserFriendDataCmd_C
+{
+
+}
+
+//服务器返回玩家好友消息
+message GetUserFriendDataCmd_S
+{
+	repeated UserFriendData friend_data = 1; //全部好友数据
+}
+
+//客户端建号时发送玩家QQ好友数据
+message SendUserQQFriendDataCmd_C
+{
+	repeated UserQQFriendData friend_data = 1;
+	optional UserQQFriendData self_data = 2;
+}
+
+//
+message SendUserQQFriendDataCmd_S
+{
+	optional uint32  resultCode	= 1; 
+}
+
+//发送请求添加UID玩家为好友
+message SendReqAddFriendCmd_C
+{
+	optional uint32 friend_uid = 1; //好友游戏唯一ID
+}
+
+//发送请求添加UID玩家为好友 放回协议
+message SendReqAddFriendCmd_S
+{
+	optional uint32  			resultCode	= 1; 
+	optional string     		desc 		= 2; 	
+}
+
+//服务器转发请求有人添加你为好友
+message SendReqBeAddFriendCmd_S
+{
+	optional string head = 1;	//对方HEAD
+	optional string name = 2;	//对方名字
+	optional uint32 uid = 3; //对方UID
+}
+
+//玩家是否同意添加你为好友
+message SendReqAgreeAddFriendCmd_C
+{
+	optional bool agree = 1; //是否同意
+	optional uint32 uid = 2; //对方UID
+}
+
+//玩家是否同意添加你为好友 返回
+message SendReqAgreeAddFriendCmd_S
+{
+
+}
+
+//删除好友
+message SendReqDeleteFriendCmd_C
+{
+	optional uint32 uid = 1;
+}
+
+//删除好友
+message SendReqDeleteFriendCmd_S
+{
+	optional uint32  			resultCode	= 1; 
+	optional string     		desc 		= 2; 
+}
+
+//推荐好友
+message SendReqRecommendFriendCmd_C
+{
+
+}
+
+//返回推荐的好友信息
+message SendReqRecommendFriendCmd_S
+{
+	repeated UserFriendData friends = 1;	//好友信息
+}
+
+//添加推荐的好友
+message SendReqAskAddRecommendFriendCmd_C
+{
+	repeated uint32 uids = 1; //要添加的好友uid
+}
+
+//返回 添加推荐的好友
+message SendReqAskAddRecommendFriendCmd_S
+{
+	optional uint32  			resultCode	= 1; 
+	optional string     		desc 		= 2; 
+}
+
+//系统自动推荐好友
+message SystemAutoRecommendFriendCmd_S
+{
+	optional UserFriendData friend = 1; //推荐的好友
+}
+
+//通过UID查抄玩家
+message GetUserInfoByUid_C
+{
+	optional uint32 uid = 1;
+}
+
+message GetUserInfoByUid_S
+{
+	optional uint32  			resultCode	= 1; 
+	optional string     		desc 		= 2; 
+	optional string head = 3;	//对方HEAD
+	optional string name = 4;	//对方名字
+	optional uint32 uid = 5; //对方UID
+}
+
+//获得玩家被邀请为好友的列表
+message GetUserAskedAddFriends_C
+{
+
+}
+
+message GetUserAskedAddFriends_S
+{
+	repeated UserFriendData friend_data = 1; //全部好友数据	
+}
+
+/////////////////旅行团功能/////////////////////////////////////////
+message UserTravelMember
+{
+	optional uint32 uid = 1;
+	optional string head = 2;
+	optional string name = 3;
+	optional uint32 travel_level = 4; //旅行团等级
+	optional uint32 level_time = 5; //离开倒计时
+}
+
+message TravelEmployMember
+{
+	optional uint32 uid = 1;
+	optional string head = 2;
+	optional string name = 3;
+	optional uint32 travel_level = 4; //旅行团等级
+	optional uint32 relation_ship = 5; //亲密度
+	optional uint32 employ_cd = 6; //雇佣CD倒计时
+	optional uint32 cur_employ_uid = 7; //当前雇佣他的对象
+	optional string cur_employ_name = 8, //当前雇佣他的玩家名字
+}
+
+
+//打开旅行团界面所需信息
+message GetUserTravelInfo_C
+{
+
+}
+
+message GetUserTravelInfo_S
+{
+	optional uint32 level = 1; //旅行团团长等级
+	optional uint32 capture_times = 2; //剩余抓捕次数
+	optional uint32 unlock_slot_count = 3; //已经解锁的位置数目
+	repeated UserTravelMember member = 4; //团员数据
+}
+
+//打开好友雇佣界面，所需协议
+message GetTravelEmployFriend_C
+{
+
+}
+
+message GetTravelEmployFriend_S
+{
+	repeated TravelEmployMember member = 1; //雇佣好友成员
+}
+
+//打开推荐雇佣界面，需要的协议
+message GetTravelEmployRecommend_C
+{
+
+}
+
+message GetTravelEmployRecommend_S
+{
+	repeated TravelEmployMember member = 1; //雇佣好友成员
+}
+
+//抓捕、雇佣 玩家 到旅行团
+message EmployFriendToTravel_C
+{
+	optional uint32 uid = 1;
+}
+
+message EmployFriendToTravel_S
+{
+	optional uint32  			resultCode	= 1;  //=0没有错误
+	optional string     		desc 		= 2;  //错误信息
+}
+
+//清楚雇佣CD时间
+message ClearEmployFriendCD_C
+{
+	optional uint32 uid = 1;
+}
+
+message ClearEmployFriendCD_S
+{
+	optional uint32  			resultCode	= 1;  //=0没有错误
+	optional string     		desc 		= 2;  //错误信息
+}
+
+//购买抓捕次数
+message BuyCaptureFriendTime_C
+{
+
+}
+
+message BuyCaptureFriendTime_S
+{
+	optional uint32  			resultCode	= 1;  //=0没有错误
+	optional string     		desc 		= 2;  //错误信息
+}
+
+//解除雇佣关系
+message RescissionEmployFriendShip_C
+{
+	optional uint32 uid = 1; 
+}
+
+message RescissionEmployFriendShip_S
+{
+	optional uint32  			resultCode	= 1;  //=0没有错误
+	optional string     		desc 		= 2;  //错误信息
+}
+
+//团长升级
+message UserTravelLevelUp_C
+{
+
+}
+
+message UserTravelLevelUp_S
+{
+	optional uint32  			resultCode	= 1;  //=0没有错误
+	optional string     		desc 		= 2;  //错误信息
+}
+
+//团员位置解锁
+message UserTravelUnlockSlot_C
+{
+
+}
+
+message UserTravelUnlockSlot_S
+{
+	optional uint32  			resultCode	= 1;  //=0没有错误
+	optional string     		desc 		= 2;  //错误信息
+}
+
+//////////////////////////商城//////////////////////////////////////
+enum MoneyType
+{
+	MoneyType_Diamond = 1;		//钻石
+	MoneyType_Gold = 2;		//金币
+	MoneyType_Rmb = 3;		//RMB
+}
+//商城类型
+enum StoreType
+{
+	StoreType_Gift		= 1;	//礼包
+	StoreType_Recharge	= 2;	//充值
+	StoreType_Items		= 3;	//道具
+	StoreType_User		= 4;	//角色	
+}
+//请求购买商品
+message ReqBuyStoreGoodCmd_CS
+{
+	optional StoreType type = 1;	//StoreType
+	optional uint32 goodsid	= 2;	//商品ID
+	optional uint32 ret	= 3;	//
+}
+//返回充值订单号 内容暂未定
+message RetRmbGoodsOrdersCmd_S
+{
+
+}
+//请求领取(周卡月卡)每日钻石
+message ReqGetCardDayPrizeCmd_CS
+{
+	optional uint32 goodsid = 1;	//领取
+	optional uint32 ret	= 2;	//
+}
+//请求已购买商城物品信息
+message ReqGetGHadBuyGoodsCmd_C
+{
+	
+}
+// 商品信息
+message GoodsInfo
+{
+	optional uint32 goodsid = 1;
+	optional uint32 num = 2;
+}
+//商城信息
+message StoreGoods
+{
+	optional StoreType type = 1;
+	repeated GoodsInfo goodsinfo = 2;
+}
+//下发已购买商城物品信息
+message SendHadBuyStoreGoodsCmd_S
+{
+	repeated StoreGoods stgoods = 1; //商城数据
+}
+//请求所有商城物品信息
+message ReqGetAllStoreGoodsCmd_C
+{
+	
+}
+//下发所有商城物品信息
+message SendAllStoreGoodsCmd_S
+{
+	repeated uint32 goodsids = 1;	//商品ID	
+}
+
+///////////////////////////////////每日分享/////////////////////////////////////////
+message GetShareRewardCmd_C
+{
+
+}
+
+message RewardData
+{
+	optional uint32     rewardType  = 1;   //奖励类型 --1钻石2金币3道具
+	optional uint32     rewardNum   = 2;   //奖励数量  --道具的话存id
+}
+message GetShareRewardCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+	optional uint32     rewardTimes = 3;   //奖励次数
+	repeated RewardData rewardData  = 4;   //奖励
+}
+
+///////////////////////////////////收藏有礼/////////////////////////////////////////
+message GetCollectRewardCmd_C
+{
+
+}
+
+message GetCollectRewardCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+}
+
+
+///////////////////////////////////邀请好友有礼/////////////////////////////////////////
+//获取玩家邀请到的好友信息
+message GetInviteFriendInfoCmd_C
+{
+
+}
+
+message InviteFriendsData
+{
+	required uint32		uid		= 1;	
+	required uint32		star	= 2;
+	required uint32		rewardState	= 3;
+	optional uint32		rewardId = 4;
+	optional uint32		sex = 5;
+	optional string		head = 6;
+	optional string		nickName = 7;
+}
+
+message GetInviteFriendInfoCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+	repeated  InviteFriendsData data = 3; //邀请的好友数据
+}
+
+//获取玩家邀请到的好友的奖励
+message GetInviteFriendRewardCmd_C
+{
+	required uint32 friendUid = 1;
+}
+
+message GetInviteFriendRewardCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+	required uint32 	rewardId = 3; //奖励ID
+}
+
+
+///////////////////////////////////每日礼包/////////////////////////////////////////
+//获取每日礼包信息
+message GetDailyWelfareInfoCmd_C
+{
+
+}
+
+message giftBagInfo
+{
+	required uint32     id  = 1;	//该礼包所在表的id，不是礼包id
+	required uint32     state  = 2; //该礼包的状态
+	required uint32     cd  = 3;	//该礼包的cd
+	optional string		rewardInfo =4;
+}
+
+message GetDailyWelfareInfoCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+	optional uint32     diamondQuickTime  = 3; //一个钻石能减少多少秒cd
+	optional uint32     watchVideoMinusMinuteCd  = 4; //看一次视频能减少多少分钟的cd
+	repeated giftBagInfo data = 5; //礼包数据
+}
+
+//获取每日礼包奖励
+message GetDailyWelfareRewardCmd_C
+{
+	required uint32 	id = 1; //该礼包所在表的id，不是礼包id
+	required uint32 	doubleReward = 2; // 1-双倍领取, 0-单倍领取
+}
+message GetDailyWelfareRewardCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+	optional uint32 	id = 3; //该礼包所在表的id，不是礼包id
+	optional string		rewardInfo =4;
+	repeated giftBagInfo nextGiftBagInfo = 5; //下个礼包数据
+	optional uint32 	 doubleReward = 6; //1-双倍领取, 0-单倍领取
+}
+
+
+message GetDailyWelfareInfoCmd_C
+{
+}
+
+message GetDailyWelfareInfoCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+	optional uint32 	id = 3; //该礼包所在表的id，不是礼包id
+	optional string		rewardInfo =4;
+}
+
+//消耗钻石抵消礼包CD
+message CostDiamondToRemoveCdCmd_C
+{
+	required uint32 	welfareId = 1; //该礼包所在表的id，不是礼包id
+}
+
+message CostDiamondToRemoveCdCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+	optional uint32 	id = 3; //该礼包所在表的id，不是礼包id
+	optional uint32 	costDiamond = 4; //消耗钻石数
+}
+
+//看视频减少礼包CD
+message WatchVideoToMinusCdCmd_C
+{
+	required uint32 	welfareId = 1; //该礼包所在表的id，不是礼包id
+}
+
+message WatchVideoToMinusCdCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+	optional uint32 	id = 3; //该礼包所在表的id，不是礼包id
+	optional uint32 	remainCd = 4; //剩余多少秒的cd
+}
+
+
+
+///////////////////////////////////每日登录/////////////////////////////////////////
+//获取每日登录信息
+message GetDailyLoginInfoCmd_C
+{
+
+}
+
+message LoginInfo
+{
+	required uint32     id  = 1;	//登录奖励id
+	required uint32     state  = 2; //该奖励的状态
+	required string     rewardInfo  = 3; //该奖励的内容
+}
+
+message GetDailyLoginInfoCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+	repeated LoginInfo  data = 3; //礼包数据
+}
+
+
+//领取登录奖励
+message GetDailyLoginRewardCmd_C
+{
+	required uint32     id  = 1;	//登录奖励id
+	optional uint32     doubleReward  = 2; //0-无双倍奖励, 1-双倍奖励
+}
+
+message GetDailyLoginRewardCmd_S
+{
+	optional uint32     resultCode  = 1;
+	optional string 	desc 		= 2; // 描述
+	repeated uint32  	id = 3; //登录奖励id
+	optional uint32     doubleReward  = 4; //0-无双倍奖励, 1-双倍奖励
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

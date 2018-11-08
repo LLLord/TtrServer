@@ -1,0 +1,68 @@
+package Cmd;
+
+message GetRoomStockCmd_CS
+{
+	optional uint32  gameId     = 1; //游戏id
+	optional uint32  roomId     = 2; //房间id
+	optional uint32  roomStock  = 3; //房间库存
+	optional uint32  data       = 4; //房间信息
+	optional uint32  platid     = 5;
+}
+
+message GetUserDataCmd_CS
+{
+	optional uint32  uid        = 1; 
+	optional uint32  data       = 2; //玩家信息
+}
+
+// 玩家增加金币
+message UserAddChipsAndRoomStockCmd_CS
+{
+	optional uint32  uid        = 1; //用户ID
+	optional uint32  chips      = 2; //大厅配置
+	optional uint32  gameId     = 4; //游戏id
+	optional uint32  roomId     = 5; //房间id
+    optional string   props     = 6; //原新返回
+	optional uint32   res       = 7; //返回码 
+	optional uint32  remainder  = 8; //玩家最新剩余 
+	optional uint32  roomStock  = 9; //房间库存
+	optional uint32  platid     = 10;
+	optional uint32  stocksize  = 11; // 游戏服传当前类型的房间 库存初始值过去 用于dbserver初始化新房间使用
+}
+
+
+// 玩家减少金币
+message UserSubChipsAndRoomStockCmd_CS
+{
+	optional uint32  uid        = 1; //用户ID
+	optional uint32  chips      = 2; //大厅配置
+	optional uint32  gameId     = 4; //游戏id
+	optional uint32  roomId     = 5; //房间id
+    optional string   props     = 6; //原新返回
+	optional uint32   res       = 7; //返回码 
+	optional uint32  remainder  = 8; //玩家最新剩余 
+	optional uint32  roomStock  = 9; //房间库存
+	optional uint32  platid     = 10;
+	optional uint32  stocksize  = 11; // 游戏服传当前类型的房间 库存初始值过去 用于dbserver初始化新房间使用
+}
+
+// 请求dbserver获取数据
+message GetDataFromDbServerCmd_CS
+{
+	optional string  tableName 	= 1; // 表名
+	optional uint32  keyNbr 	= 2; // 键值 如果存在则表示 key为number类型
+	optional string  keyStr 	= 3; // 键值 如果存在则表示 key为string类型
+	optional string  data 		= 4; // json串
+}
+
+
+// 请求dbserver存储数据
+message SaveDataToDbServerCmd_CS
+{
+	optional string  tableName 	= 1; // 表名
+	optional string  data 		= 2; // json串
+	optional uint32  resultcode = 3;
+	optional string  desc 		= 4;
+}
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UniServer>
+  <LoginServerList>
+    <url>ws://14.17.104.56:7000/shen/zone</url>
+  </LoginServerList>
+  <MonitorServerList>
+  </MonitorServerList>
+  <GmServerList>
+  </GmServerList>
+</UniServer>

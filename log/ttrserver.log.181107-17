@@ -1,0 +1,418 @@
+[181107-17:28:22] ttrlobby DEBUG Lua 5.1
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\CollectionTable.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\DailyLoginTable.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\DailyWelfareTable.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\Invitation.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\ItemData.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\StoreData.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\TableBuilding.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\TableLevelup.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\TableLobbyIdConfig.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\TableMail.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\TableRebuild.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\dailyshare.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\taskActivity.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\taskTable.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\traveLevel.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\travelHead.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:table\travelUnlock.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\DailyLogin\DailyLogin.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\DailyLogin\MsgDailyLogin.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\DailySharing\DailySharing.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\DailySharing\MsgDailySharing.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\DailyWelfare\DailyWelfare.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\DailyWelfare\MsgDailyWelfare.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\ErrorCode.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\InviteFriends\InviteFriendsMgr.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\InviteFriends\MsgInviteFriends.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\MsgLobby.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\UserInfo.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\cllocet\MsgClloect.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\cllocet\collect.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\common\Common.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\common\List.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\common\Map.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\common\Queue.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\common\enum.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\common\functions.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\common\staticconst.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\dbready.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\friend\frienddata.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\friend\friendmgr.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\friend\msgfriend.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\friend\msgtravel.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\friend\travelmgr.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\friend\userfriend.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\globalConst.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\mail\MailMgr.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\mail\MsgMail.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\mail\mail.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\message\MsgMgr.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\message\MsgMsg.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\message\message.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\ranklist\msgrank.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\ranklist\ranklist.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\ranklist\ranklistMgr.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\ranklist\ranknode.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\recharge\msgplatsdk.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\recharge\rechargemgr.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\settings\MsgSettings.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\store\msgstore.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\store\storemgr.lua
+[181107-17:28:22] ttrlobby DEBUG 00000000000000
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3106)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3114)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=4004)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3004)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3012)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3107)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3304)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=4005)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3005)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3013)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=2003)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3108)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3305)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=4006)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3006)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3014)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3301)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3101)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3109)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=4007)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=1002)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=1004)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=1006)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=4003)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=2004)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3102)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3110)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3203)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=4008)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3008)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3205)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3303)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3302)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3103)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3111)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=4001)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3001)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3009)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3204)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=2001)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=2005)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3104)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3112)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=4002)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3002)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3010)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3202)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3201)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3011)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3105)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3113)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=1001)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=1003)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=1005)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3007)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=2002)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=2006)
+[181107-17:28:22] ttrlobby DEBUG 111%!(EXTRA float64=3003)
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\task\AchieveTaskMgr.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\task\DailyTaskMgr.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\task\TaskData.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\task\msgTask.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\world\Building.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\world\MsgWorld.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\world\State.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\do\world\World.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\event\server.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\event\timer.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\ProFi.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\RecordInfo.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\bit.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\class.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\extend.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\messagefacotry.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\proto.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\protobuf.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\random.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\repair.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\server.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\unihttpclient.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\unilight.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\unilobby.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\unimongodb.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\unimongodb_test.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\unimysql.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\uniplatform.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\uniredis.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\uniregexp.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\unirethinkdb.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\unitcp.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\unitimer.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\unizone.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua\utf8.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua_ttr\db\chessdbinit.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua_ttr\db\userinfodb.lua
+[181107-17:28:22] ttrlobby DEBUG 正在加载脚本:script\gxlua_ttr\ttrutil.lua
+[181107-17:28:23] ttrlobby DEBUG LuaAddTimer:25sec,unitimer.loop
+[181107-17:28:23] ttrlobby DEBUG LuaAddTimer:1000sec,UserInfo.Update
+[181107-17:28:23] ttrlobby INFO  lua engine initialize ok
+[181107-17:28:23] ttrlobby INFO  lua version check ok
+[181107-17:28:23] ttrlobby INFO  set runtime.GOMAXPROCS = 8
+[181107-17:28:23] ttrlobby INFO  game props 0,1000
+[181107-17:28:23] ttrlobby DEBUG LoginClientTask[0,100001,]url:ws://14.17.104.56:7000/shen/zone,origin:http://14.17.104.56/
+[181107-17:28:23] ttrlobby DEBUG LoginClientTask[0,100001,]Dail:ws://14.17.104.56:7000/shen/zone,*
+[181107-17:28:23] ttrlobby INFO  LobbyServerList url is null :0
+[181107-17:28:23] ttrlobby INFO  selectmaxgateway 
+[181107-17:28:25] ttrlobby DEBUG LoginClientTask[0,100001,]dial url:ws://14.17.104.56:7000/shen/zone,origin:http://14.17.104.56/
+[181107-17:28:25] ttrlobby INFO  setupMongodb:14.17.104.12:28900/ttr-1
+[181107-17:28:25] ttrlobby INFO  MongoDB StartChanSaves start
+[181107-17:28:25] ttrlobby INFO  创建表格---------------------
+[181107-17:28:25] ttrlobby INFO  创建表格11111---------------------
+[181107-17:28:25] ttrlobby INFO  创建gameorder表格---------------------
+[181107-17:28:25] ttrlobby ERROR unitimer.init已经初始化过了:25
+[181107-17:28:25] ttrlobby INFO  MongoDB handler register to lua OK
+[181107-17:28:25] ttrlobby INFO  set up redis 
+[181107-17:28:25] ttrlobby DEBUG redis url is null
+[181107-17:28:25] ttrlobby INFO  LoginClientTask[0,100001,3区]start as lobbyserver ws://172.17.0.6:7503/lobby/unilight
+[181107-17:28:25] ttrlobby INFO  listen websocket url:ws://172.17.0.6:7503/lobby/unilight
+[181107-17:28:25] ttrlobby DEBUG LuaAddTimer:60000sec,RankListMgr.SortRank
+[181107-17:28:25] ttrlobby DEBUG 服务器启动时从数据库加载所有QQAppId信息.............
+[181107-17:28:25] ttrlobby DEBUG 服务器启动时从数据库加载所有玩家好友数据信息(方便测试).............
+[181107-17:28:25] ttrlobby DEBUG LuaAddTimer:60000sec,FriendManager.SaveUserFriendToDB
+[181107-17:28:25] ttrlobby INFO  LoginClientTask[0,100001,3区]verify ok:ret:true zoneinfo:<gameid:3010 zoneid:3 gamename:"ttr" zonename:"3区" mongo:"14.17.104.12:28900/ttr-1" separatezoneuid:false lobby:"ws://172.17.0.6:7503/lobby/unilight" opentime:"2018-10-16 13:56:46" > 
+[181107-17:28:25] ttrlobby DEBUG LoginClientTask[0,100001,3区]GatewayUrlListAllLoginSmd, Gateway Info: ws://14.17.104.12:9001/shen/zone
+[181107-17:28:25] ttrlobby DEBUG GatewayClientTask[0,1,]url:ws://14.17.104.12:9001/shen/zone,origin:http://14.17.104.12:9001/shen/zone
+[181107-17:28:25] ttrlobby INFO  LoginClientTask[0,100001,3区]GatewayUrlListAllLoginSmd_S: gatewaylist:<gateid:1 url:"ws://14.17.104.12:9001/shen/zone" urluser:"ws://14.17.104.12:9001/shen/user,tcp://14.17.104.12:9005" > 
+[181107-17:28:27] ttrlobby DEBUG GatewayClientTask[0,1,]dial url:ws://14.17.104.12:9001/shen/zone,origin:http://14.17.104.12:9001/shen/zone
+[181107-17:28:27] ttrlobby INFO  GatewayClientTask[0,1,]Gateway OK: ret:true url:"ws://14.17.104.12:9001/shen/user" urltcp:"tcp://14.17.104.12:9005" 
+[181107-17:31:01] ttrlobby INFO  LoginClientTask[0,100001,3区]gatewayconfigHttpLoginTokenLoginSmd, AccountID: 11952687, LoginTempID: 1766150, %!s(uint32=0)%!(EXTRA string=data:<accountid:11952687 accountname:"0::jjjhkhk" logintempid:1766150 timestamp:1541583071 gatewayid:1 gamezoneid:12927851560963 tokenvalue:"a8844725d06c479e18998e34bf4ca198-1541583071" tokenkey:"7c37cab68aa8451de504e8fe3d1e439f" platid:0 ip:"119.147.213.39" gamezone:<gameid:3010 zoneid:3 gamename:"ttr" zonename:"3区" > gmlevel:0 imei:"" osname:"" > )
+[181107-17:31:01] ttrlobby INFO  GatewayClientTask[0,1,]AccountManager add new account, account id: 11952687
+[181107-17:31:01] ttrlobby DEBUG GatewayClientTask[0,1,]HttpLoginTokenGateSmd, AccountID: 11952687, LoginTempID: 1766150, accountid:11952687 accountname:"0::jjjhkhk" ip:2006177063 imei:"" platid:0 gmlevel:0 osname:"" 
+[181107-17:31:01] ttrlobby DEBUG LA[0,11952687,]new lobbyuser
+[181107-17:31:01] ttrlobby INFO  ZA[0,11952687,]brad monitor user login data:<userid:11952687 accountid:11952687 accountname:"0::jjjhkhk" > ip:2006177063 imei:"" 
+[181107-17:31:01] ttrlobby INFO  TCP建立成功，玩家可以进入游戏了 11952687
+[181107-17:31:01] ttrlobby ERROR ZA[0,11952687,]account.JsMessage.Zipmd5 null
+[181107-17:31:01] ttrlobby ERROR ZA[0,11952687,]account.JsMessage.Configmd5 null
+[181107-17:31:01] ttrlobby ERROR ZA[0,11952687,]account.JsMessage.Bundlename null
+[181107-17:31:01] ttrlobby INFO  GatewayClientTask[0,1,]ParseUserLoginReturnOkGateSmd_S 11952687,2006177063,,,
+[181107-17:31:01] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.UserInfoSynLobbyCmd_C","data":{}}
+[181107-17:31:01] ttrlobby DEBUG 收到获取个人信息
+[181107-17:31:01] ttrlobby DEBUG Get user info from DB
+[181107-17:31:01] ttrlobby DEBUG ------110
+[181107-17:31:01] ttrlobby DEBUG ------1103------0
+[181107-17:31:01] ttrlobby DEBUG DailySharing:init(owner), dailyRewardNum = 0, uid = 11952687
+[181107-17:31:01] ttrlobby DEBUG Collect:init(owner), isCollect = 0, uid = 11952687
+[181107-17:31:01] ttrlobby DEBUG DailyWelfare:init, uid=11952687, len=0
+[181107-17:31:01] ttrlobby DEBUG DailyWelfare:initGiftBagInfo(), uid=11952687, star=0, len=0
+[181107-17:31:01] ttrlobby DEBUG DailyLogin:init()
+[181107-17:31:01] ttrlobby WARN  set loginInfo from db
+[181107-17:31:01] ttrlobby DEBUG DailyLogin:loadFromDb(data), self.lastLoginTime=1541582577
+[181107-17:31:01] ttrlobby DEBUG Recalc star:0
+[181107-17:31:01] ttrlobby DEBUG userInfo.dailyTask:addProgress
+[181107-17:31:01] ttrlobby DEBUG AchieveTaskMgr:addProgress event:0 times:1
+[181107-17:31:01] ttrlobby DEBUG LuaAddTimer:1200000sec,FriendManager.SystemAutoRecommendFriend
+[181107-17:31:01] ttrlobby DEBUG LuaAddTimer:1000sec,FriendManager.CheckData
+[181107-17:31:01] ttrlobby DEBUG --------Print User Friend Base Info:-----------------
+[181107-17:31:01] ttrlobby DEBUG uid:11952687
+[181107-17:31:01] ttrlobby DEBUG head:http://img0.imgtn.bdimg.com/it/u=789186820,4034808660&fm=27&gp=0.jpg
+[181107-17:31:01] ttrlobby DEBUG name:jjjhkhk
+[181107-17:31:01] ttrlobby DEBUG area:
+[181107-17:31:01] ttrlobby DEBUG star:0
+[181107-17:31:01] ttrlobby DEBUG app_id:jjjhkhk
+[181107-17:31:01] ttrlobby DEBUG DailyLogin:Login(), set self.lastLoginTime=1541583061
+[181107-17:31:01] ttrlobby DEBUG DailySharing:GetData, dailyRewardNum = 0, uid = 11952687
+[181107-17:31:01] ttrlobby DEBUG Collect:GetData, isCollect = 0, uid = 11952687
+[181107-17:31:01] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.UserInfoSynLobbyCmd_S","st":1541583061,"data":{"is_first_login":false,"errno":"0","userInfo":{"diamond":993950,"head":"http:\/\/img0.imgtn.bdimg.com\/it\/u=789186820,4034808660&fm=27&gp=0.jpg","money":118521509,"collect":{"isCollect":0},"nickName":"jjjhkhk","uid":11952687,"sex":2,"star":0,"dailySharing":{"dailyRewardNum":0},"world":{"states":{"1":{"id":101,"buildings":{}}}}},"shield_count":3,"resultCode":0}}
+[181107-17:31:01] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.GetUserTravelInfo_C","data":{}}
+[181107-17:31:01] ttrlobby DEBUG -------打印旅行团程序信息-------------
+[181107-17:31:01] ttrlobby DEBUG {"travelHead":1,"lastCaptureTime":1541571377,"employUid":0,"lastEmployUid":0,"shieldCount":3,"employCd":0,"uid":11952687,"travelHeadBackUp":{"1":true,"2":true},"todayBuyCaptureTimes":0,"employName":"","members":{},"relationships":{},"level":0,"unlockSlotCount":3,"captureTimes":3}
+[181107-17:31:01] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.GetUserTravelInfo_S","st":1541583061,"data":{"head_backup":{"1":1,"2":2},"unlock_slot_count":3,"today_buy_capture_times":0,"head":1,"errno":"0","level":0,"member":{},"capture_times":3}}
+[181107-17:31:01] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.SendUserQQFriendDataCmd_C","data":{"self_data":{"name":"jjjhkhk","head":"http://img0.imgtn.bdimg.com/it/u=789186820,4034808660&fm=27&gp=0.jpg","app_id":"jjjhkhk","sex":2},"friend_data":[{"name":"石达开001","head":"http://img2.imgtn.bdimg.com/it/u=1269743249,2763282807&fm=27&gp=0.jpg","app_id":"00000001111111","sex":2},{"name":"石达开002","head":"http://img5.imgtn.bdimg.com/it/u=377014827,3751078472&fm=27&gp=0.jpg","app_id":"00000001111112","sex":2},{"name":"石达开003","head":"http://img3.imgtn.bdimg.com/it/u=3166078695,1890527236&fm=27&gp=0.jpg","app_id":"00000001111113","sex":2}]}}
+[181107-17:31:01] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.SendUserQQFriendDataCmd_S","st":1541583061,"data":{"resultCode":0,"errno":"0"}}
+[181107-17:31:01] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.GetUserAskedAddFriends_C"}
+[181107-17:31:01] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.GetUserAskedAddFriends_S","st":1541583061,"data":{"errno":"0","friend_data":{}}}
+[181107-17:31:01] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:01] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":993950,"gold":118521509,"desc":"玩家货币返回"},"st":1541583061}
+[181107-17:31:01] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:02] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:02] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":993950,"gold":118521509,"desc":"玩家货币返回"},"st":1541583062}
+[181107-17:31:02] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:03] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.GetDailyWelfareInfoCmd_C"}
+[181107-17:31:03] ttrlobby DEBUG GetDailyWelfareInfo, uid=11952687, len=0
+[181107-17:31:03] ttrlobby DEBUG DailyWelfare:initGiftBagInfo(), uid=11952687, star=0, len=0
+[181107-17:31:03] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.GetDailyWelfareInfoCmd_S","st":1541583063,"data":{"watchVideoMinusMinuteCd":60,"diamondQuickTime":36,"resultCode":0,"errno":"0","data":{},"desc":"成功"}}
+[181107-17:31:03] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:03] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":993950,"gold":118521509,"desc":"玩家货币返回"},"st":1541583063}
+[181107-17:31:03] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:03] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.GetDailyLoginInfoCmd_C"}
+[181107-17:31:03] ttrlobby DEBUG uid=11952687, len=7, id=1, state=2, rewardInfo=1_20
+[181107-17:31:03] ttrlobby DEBUG uid=11952687, len=7, id=2, state=2, rewardInfo=1_40
+[181107-17:31:03] ttrlobby DEBUG uid=11952687, len=7, id=3, state=2, rewardInfo=1_60
+[181107-17:31:03] ttrlobby DEBUG uid=11952687, len=7, id=4, state=2, rewardInfo=1_80
+[181107-17:31:03] ttrlobby DEBUG uid=11952687, len=7, id=5, state=2, rewardInfo=1_100
+[181107-17:31:03] ttrlobby DEBUG uid=11952687, len=7, id=6, state=2, rewardInfo=1_120
+[181107-17:31:03] ttrlobby DEBUG uid=11952687, len=7, id=7, state=2, rewardInfo=1_150
+[181107-17:31:03] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.GetDailyLoginInfoCmd_S","st":1541583063,"data":{"errno":"0","resultCode":0,"data":{"1":{"id":1,"rewardInfo":"1_20","state":2,"reward":"1_20"},"3":{"state":2,"rewardInfo":"1_60","id":3,"reward":"1_60"},"2":{"state":2,"rewardInfo":"1_40","id":2,"reward":"1_40"},"5":{"id":5,"rewardInfo":"1_100","state":2,"reward":"1_100"},"4":{"state":2,"rewardInfo":"1_80","id":4,"reward":"1_80"},"7":{"id":7,"rewardInfo":"1_150","state":2,"reward":"1_150"},"6":{"id":6,"rewardInfo":"1_120","state":2,"reward":"1_120"}},"desc":"成功"}}
+[181107-17:31:04] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:04] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":993950,"gold":118521509,"desc":"玩家货币返回"},"st":1541583064}
+[181107-17:31:04] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:05] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:05] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":993950,"gold":118521509,"desc":"玩家货币返回"},"st":1541583065}
+[181107-17:31:05] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:06] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.Ping_C","data":{}}
+[181107-17:31:06] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.Ping_S","st":1541583066,"data":{"resultCode":0,"errno":"0"}}
+[181107-17:31:06] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:06] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":993950,"gold":118521509,"desc":"玩家货币返回"},"st":1541583066}
+[181107-17:31:06] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:07] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:07] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":993950,"gold":118521509,"desc":"玩家货币返回"},"st":1541583067}
+[181107-17:31:07] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:08] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.GetDailyLoginRewardCmd_C","data":{"id":1,"doubleReward":0}}
+[181107-17:31:08] ttrlobby DEBUG HandleReward, i=1, v=40, rewardType=1, times=1
+[181107-17:31:08] ttrlobby DEBUG 每日登录领取前, uid=11952687, money=118521509, diamond=993950, rewardType=1, num=40
+[181107-17:31:08] ttrlobby DEBUG begin, AddUserMoney-001, uid=11952687, moneytype=1, moneyNum=40
+[181107-17:31:08] ttrlobby DEBUG add, uid=11952687, diamond=993990, moneyNum=40
+[181107-17:31:08] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:08] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":993990,"gold":118521509,"desc":"玩家货币返回"},"st":1541583068}
+[181107-17:31:08] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:08] ttrlobby DEBUG end, AddUserMoney-009, uid=11952687, money=118521509, diamond=993990
+[181107-17:31:08] ttrlobby DEBUG 每日登录领取后, uid=11952687, money=118521509, diamond=993990
+[181107-17:31:08] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.GetDailyLoginRewardCmd_S","st":1541583068,"data":{"desc":"领取成功","resultCode":0,"id":1,"errno":"0","doubleReward":0}}
+[181107-17:31:08] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:08] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":993990,"gold":118521509,"desc":"玩家货币返回"},"st":1541583068}
+[181107-17:31:08] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:09] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:09] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":993990,"gold":118521509,"desc":"玩家货币返回"},"st":1541583069}
+[181107-17:31:09] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:09] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.GetDailyLoginRewardCmd_C","data":{"id":2,"doubleReward":0}}
+[181107-17:31:09] ttrlobby DEBUG HandleReward, i=1, v=80, rewardType=1, times=1
+[181107-17:31:09] ttrlobby DEBUG 每日登录领取前, uid=11952687, money=118521509, diamond=993990, rewardType=1, num=80
+[181107-17:31:09] ttrlobby DEBUG begin, AddUserMoney-001, uid=11952687, moneytype=1, moneyNum=80
+[181107-17:31:09] ttrlobby DEBUG add, uid=11952687, diamond=994070, moneyNum=80
+[181107-17:31:09] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:09] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":994070,"gold":118521509,"desc":"玩家货币返回"},"st":1541583069}
+[181107-17:31:09] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:09] ttrlobby DEBUG end, AddUserMoney-009, uid=11952687, money=118521509, diamond=994070
+[181107-17:31:09] ttrlobby DEBUG 每日登录领取后, uid=11952687, money=118521509, diamond=994070
+[181107-17:31:09] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.GetDailyLoginRewardCmd_S","st":1541583069,"data":{"desc":"领取成功","resultCode":0,"id":2,"errno":"0","doubleReward":0}}
+[181107-17:31:10] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:10] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":994070,"gold":118521509,"desc":"玩家货币返回"},"st":1541583070}
+[181107-17:31:10] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:10] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.GetDailyLoginRewardCmd_C","data":{"id":3,"doubleReward":0}}
+[181107-17:31:10] ttrlobby DEBUG HandleReward, i=1, v=120, rewardType=1, times=1
+[181107-17:31:10] ttrlobby DEBUG 每日登录领取前, uid=11952687, money=118521509, diamond=994070, rewardType=1, num=120
+[181107-17:31:10] ttrlobby DEBUG begin, AddUserMoney-001, uid=11952687, moneytype=1, moneyNum=120
+[181107-17:31:10] ttrlobby DEBUG add, uid=11952687, diamond=994190, moneyNum=120
+[181107-17:31:10] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:10] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":994190,"gold":118521509,"desc":"玩家货币返回"},"st":1541583070}
+[181107-17:31:10] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:10] ttrlobby DEBUG end, AddUserMoney-009, uid=11952687, money=118521509, diamond=994190
+[181107-17:31:10] ttrlobby DEBUG 每日登录领取后, uid=11952687, money=118521509, diamond=994190
+[181107-17:31:10] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.GetDailyLoginRewardCmd_S","st":1541583070,"data":{"desc":"领取成功","resultCode":0,"id":3,"errno":"0","doubleReward":0}}
+[181107-17:31:11] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.Ping_C","data":{}}
+[181107-17:31:11] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.Ping_S","st":1541583071,"data":{"resultCode":0,"errno":"0"}}
+[181107-17:31:11] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.GetDailyLoginRewardCmd_C","data":{"id":4,"doubleReward":0}}
+[181107-17:31:11] ttrlobby DEBUG HandleReward, i=1, v=160, rewardType=1, times=1
+[181107-17:31:11] ttrlobby DEBUG 每日登录领取前, uid=11952687, money=118521509, diamond=994190, rewardType=1, num=160
+[181107-17:31:11] ttrlobby DEBUG begin, AddUserMoney-001, uid=11952687, moneytype=1, moneyNum=160
+[181107-17:31:11] ttrlobby DEBUG add, uid=11952687, diamond=994350, moneyNum=160
+[181107-17:31:11] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:11] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":994350,"gold":118521509,"desc":"玩家货币返回"},"st":1541583071}
+[181107-17:31:11] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:11] ttrlobby DEBUG end, AddUserMoney-009, uid=11952687, money=118521509, diamond=994350
+[181107-17:31:11] ttrlobby DEBUG 每日登录领取后, uid=11952687, money=118521509, diamond=994350
+[181107-17:31:11] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.GetDailyLoginRewardCmd_S","st":1541583071,"data":{"desc":"领取成功","resultCode":0,"id":4,"errno":"0","doubleReward":0}}
+[181107-17:31:11] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:11] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":994350,"gold":118521509,"desc":"玩家货币返回"},"st":1541583071}
+[181107-17:31:11] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:12] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.GetDailyLoginRewardCmd_C","data":{"id":5,"doubleReward":0}}
+[181107-17:31:12] ttrlobby DEBUG HandleReward, i=1, v=200, rewardType=1, times=1
+[181107-17:31:12] ttrlobby DEBUG 每日登录领取前, uid=11952687, money=118521509, diamond=994350, rewardType=1, num=200
+[181107-17:31:12] ttrlobby DEBUG begin, AddUserMoney-001, uid=11952687, moneytype=1, moneyNum=200
+[181107-17:31:12] ttrlobby DEBUG add, uid=11952687, diamond=994550, moneyNum=200
+[181107-17:31:12] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:12] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":994550,"gold":118521509,"desc":"玩家货币返回"},"st":1541583072}
+[181107-17:31:12] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:12] ttrlobby DEBUG end, AddUserMoney-009, uid=11952687, money=118521509, diamond=994550
+[181107-17:31:12] ttrlobby DEBUG 每日登录领取后, uid=11952687, money=118521509, diamond=994550
+[181107-17:31:12] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.GetDailyLoginRewardCmd_S","st":1541583072,"data":{"desc":"领取成功","resultCode":0,"id":5,"errno":"0","doubleReward":0}}
+[181107-17:31:12] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:12] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":994550,"gold":118521509,"desc":"玩家货币返回"},"st":1541583072}
+[181107-17:31:12] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:13] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.GetDailyLoginRewardCmd_C","data":{"id":6,"doubleReward":0}}
+[181107-17:31:13] ttrlobby DEBUG HandleReward, i=1, v=240, rewardType=1, times=1
+[181107-17:31:13] ttrlobby DEBUG 每日登录领取前, uid=11952687, money=118521509, diamond=994550, rewardType=1, num=240
+[181107-17:31:13] ttrlobby DEBUG begin, AddUserMoney-001, uid=11952687, moneytype=1, moneyNum=240
+[181107-17:31:13] ttrlobby DEBUG add, uid=11952687, diamond=994790, moneyNum=240
+[181107-17:31:13] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:13] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":994790,"gold":118521509,"desc":"玩家货币返回"},"st":1541583073}
+[181107-17:31:13] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:13] ttrlobby DEBUG end, AddUserMoney-009, uid=11952687, money=118521509, diamond=994790
+[181107-17:31:13] ttrlobby DEBUG 每日登录领取后, uid=11952687, money=118521509, diamond=994790
+[181107-17:31:13] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.GetDailyLoginRewardCmd_S","st":1541583073,"data":{"desc":"领取成功","resultCode":0,"id":6,"errno":"0","doubleReward":0}}
+[181107-17:31:13] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:13] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":994790,"gold":118521509,"desc":"玩家货币返回"},"st":1541583073}
+[181107-17:31:13] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:13] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.GetDailyLoginRewardCmd_C","data":{"id":7,"doubleReward":0}}
+[181107-17:31:13] ttrlobby DEBUG HandleReward, i=1, v=300, rewardType=1, times=1
+[181107-17:31:13] ttrlobby DEBUG 每日登录领取前, uid=11952687, money=118521509, diamond=994790, rewardType=1, num=300
+[181107-17:31:13] ttrlobby DEBUG begin, AddUserMoney-001, uid=11952687, moneytype=1, moneyNum=300
+[181107-17:31:13] ttrlobby DEBUG add, uid=11952687, diamond=995090, moneyNum=300
+[181107-17:31:13] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:13] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":995090,"gold":118521509,"desc":"玩家货币返回"},"st":1541583073}
+[181107-17:31:13] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:13] ttrlobby DEBUG end, AddUserMoney-009, uid=11952687, money=118521509, diamond=995090
+[181107-17:31:13] ttrlobby DEBUG 每日登录领取后, uid=11952687, money=118521509, diamond=995090
+[181107-17:31:13] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.GetDailyLoginRewardCmd_S","st":1541583073,"data":{"desc":"领取成功","resultCode":0,"id":7,"errno":"0","doubleReward":0}}
+[181107-17:31:14] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:14] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":995090,"gold":118521509,"desc":"玩家货币返回"},"st":1541583074}
+[181107-17:31:14] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:15] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:15] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":995090,"gold":118521509,"desc":"玩家货币返回"},"st":1541583075}
+[181107-17:31:15] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:16] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.Ping_C","data":{}}
+[181107-17:31:16] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.Ping_S","st":1541583076,"data":{"resultCode":0,"errno":"0"}}
+[181107-17:31:16] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:16] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":995090,"gold":118521509,"desc":"玩家货币返回"},"st":1541583076}
+[181107-17:31:16] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:17] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:17] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":995090,"gold":118521509,"desc":"玩家货币返回"},"st":1541583077}
+[181107-17:31:17] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:18] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:18] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":995090,"gold":118521509,"desc":"玩家货币返回"},"st":1541583078}
+[181107-17:31:18] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:19] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:19] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":995090,"gold":118521509,"desc":"玩家货币返回"},"st":1541583079}
+[181107-17:31:19] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:20] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:20] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":995090,"gold":118521509,"desc":"玩家货币返回"},"st":1541583080}
+[181107-17:31:20] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:21] ttrlobby DEBUG ZA[0,11952687,]JsMessage: {"do":"Cmd.Ping_C","data":{}}
+[181107-17:31:21] ttrlobby DEBUG [send] {"errno":"0","do":"Cmd.Ping_S","st":1541583081,"data":{"resultCode":0,"errno":"0"}}
+[181107-17:31:21] ttrlobby DEBUG SendUserMoney-001
+[181107-17:31:21] ttrlobby DEBUG [send] {"do":"Cmd.SendUserMoneyCmd_S","data":{"diamond":995090,"gold":118521509,"desc":"玩家货币返回"},"st":1541583081}
+[181107-17:31:21] ttrlobby DEBUG SendUserMoney-002
+[181107-17:31:22] ttrlobby INFO  ZA[0,11952687,]brad monitor user logout data:<userid:11952687 > 
+[181107-17:31:22] ttrlobby DEBUG ZA[0,11952687,]disconnect tcp
+[181107-17:31:22] ttrlobby INFO  account_disconnect:11952687
+[181107-17:31:22] ttrlobby DEBUG DailySharing:GetData, dailyRewardNum = 0, uid = 11952687
+[181107-17:31:22] ttrlobby DEBUG Collect:GetData, isCollect = 0, uid = 11952687
+[181107-17:31:22] ttrlobby DEBUG delete timer:FriendManager.SystemAutoRecommendFriend
+[181107-17:32:23] ttrlobby DEBUG 玩家(jjjhkhk)离线时间过长(61)，数据下线
+[181107-17:32:23] ttrlobby DEBUG --------Print User Friend Base Info:-----------------
+[181107-17:32:23] ttrlobby DEBUG uid:11952687
+[181107-17:32:23] ttrlobby DEBUG head:http://img0.imgtn.bdimg.com/it/u=789186820,4034808660&fm=27&gp=0.jpg
+[181107-17:32:23] ttrlobby DEBUG name:jjjhkhk
+[181107-17:32:23] ttrlobby DEBUG area:
+[181107-17:32:23] ttrlobby DEBUG star:0
+[181107-17:32:23] ttrlobby DEBUG app_id:jjjhkhk
+[181107-17:32:23] ttrlobby DEBUG delete timer:FriendManager.CheckData
+[181107-17:38:23] ttrlobby INFO  luaCollectBefore:4327.857421875  luaCollectEnd: 3992.0947265625
+[181107-17:38:23] ttrlobby DEBUG RuntimeStats Lua: 335.0KB, Goroutines: 19, GCPause: 0.00+0.00ms, HeapObjects: 47034, HeapAlloc: 2.3MB, Mallocs: 1641101,Frees:1594067
+[181107-17:48:23] ttrlobby INFO  luaCollectBefore:5738.5908203125  luaCollectEnd: 4080.380859375
+[181107-17:48:23] ttrlobby DEBUG RuntimeStats Lua: 1.6MB, Goroutines: 19, GCPause: 0.00+0.00ms, HeapObjects: 54384, HeapAlloc: 2.8MB, Mallocs: 3228987,Frees:3174603
+[181107-17:58:23] ttrlobby INFO  luaCollectBefore:5619.2158203125  luaCollectEnd: 4076.544921875
+[181107-17:58:23] ttrlobby DEBUG RuntimeStats Lua: 1.5MB, Goroutines: 19, GCPause: 0.00+0.00ms, HeapObjects: 75121, HeapAlloc: 3.1MB, Mallocs: 4820303,Frees:4745182
