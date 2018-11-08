@@ -1,0 +1,33 @@
+<UniServer>
+        <global>
+                <debug>false</debug>
+                <serverList>serverList.xml</serverList>
+                <log>debug</log>
+                <suffix>060102-15</suffix>
+                <cpu_num>0</cpu_num>
+                <debug_level>1</debug_level>
+        </global>
+        <UniLight>
+                <zone_key>3010:3:b1f12fcdc885c3d78082fb86143e3495</zone_key>
+                <logfilename>log/ttrserver.log</logfilename>
+                <logname>ttrlobby</logname>
+                <lobby_server>true</lobby_server>
+                <script>script</script>
+                <table>table</table>
+                <message_do>do</message_do>
+                <message_uid>uid</message_uid>
+                <zone_type>4</zone_type>
+                <lua_do>Do</lua_do>
+                <lua_initfile>init.lua</lua_initfile>
+                <lua_min_versoin>60</lua_min_versoin>
+                <gm_do>Gm</gm_do>
+                <gm_key>abcdefghijklmnopqrstuvwxyz123456</gm_key>
+                <gm_iv>abcdefghijklmnop</gm_iv>
+                <db_redis></db_redis>
+                <db_mysql></db_mysql>
+                <db_rethink></db_rethink>
+                <db_mongo></db_mongo>
+                <db_mongo_cache>false</db_mongo_cache>
+        </UniLight>
+</UniServer>
+
