@@ -27,7 +27,6 @@
                 <db_mysql></db_mysql>
                 <db_rethink></db_rethink>
                 <db_mongo></db_mongo>
-                <addForTest></addForTest>
                 <db_mongo_cache>false</db_mongo_cache>
         </UniLight>
 </UniServer>
